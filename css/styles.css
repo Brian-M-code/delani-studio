@@ -21,3 +21,46 @@ body{
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  .portfolio{
+    align-items: center;
+  }
+  .project {
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    opacity: 0;
+    width: 80%;
+    border: 5px solid white;
+    padding: 4px;
+    margin: 5px;
+    height: 80%;
+    font-weight: bold;
+  }
+  .contact-us{
+    background: url(../images/assets/c_image.jpg) no-repeat;
+    background-size: contain;
+    background-position: relative;
+    color: white;
+    height: 680px;
+  }
+  .row{
+    align: center;
+  }
+  .pname{
+    display: none;
+  }
+  input[type=text]{
+    background: none;
+    color: white;
+    justify-content: flex-end;
+    width: 100%;
+    border-color: white;
+  }
+  textarea{
+    background: none;
+    color: white;
+    width: 1100px;
+    height: 250px;
+  }
+  
