@@ -50,3 +50,15 @@ $(document).ready(function () {
         }, function () {
             $("#work8, #proj8").fadeTo("slow", 1);
         });
+        function check_name() {
+            var pattern = /^[a-zA-Z]*$/;
+            var name = $("#name").val();
+            if (pattern.test(name) && name !== '') {
+                $("#name-error").hide();
+                $("#name").css("border-bottom", "2px solid #34F458");
+            } else {
+                $("#name-error").html("Incorrect name format");
+                $("#name-eror").show();
+                $("#name").css("border-bottom", "2px solid #F90A0A");
+                error_name = true;
+            }
