@@ -1,5 +1,5 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times Roman', sans-serif;
   }
   .main-content{
     text-align: center;
@@ -10,7 +10,7 @@ body{
     background-size: contain;
     color: white;
   }
-  .aboutus{
+  .about-us{
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -59,7 +59,7 @@ body{
   }
   textarea{
     background: none;
-    color: white;
+    color: lightcoral;
     width: 1100px;
     height: 250px;
   }
@@ -104,5 +104,4 @@ body{
   ::placeholder{
     color: white;
   }
-  
   
