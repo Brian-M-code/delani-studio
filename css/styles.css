@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main-content{
+    text-align: center;
+    font-weight: bold;
+  }
+  .front-page{
+    background: url(../images/assets/h_img.jpg) no-repeat;
+    background-size: contain;
+    color: white;
+  }
+  .aboutus{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .services{
+    background-image: url(../images/assets/s_image.jpg);
+    color: white;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
