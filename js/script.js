@@ -62,3 +62,14 @@ $(document).ready(function () {
                 $("#name").css("border-bottom", "2px solid #F90A0A");
                 error_name = true;
             }
+            $("#contacts").submit(function (event) {
+                event.preventDefault();
+                var blanks = ["name", "mail", "message"];
+                var input = [];
+                blanks.forEach(function (blank) {
+                    input.push($("#" + blank).val());
+                });
+                alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
+                $("#contacts")[0].reset();
+            })
+        })

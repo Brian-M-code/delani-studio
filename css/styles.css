@@ -63,4 +63,46 @@ body{
     width: 1100px;
     height: 250px;
   }
+  .button{
+    align: center;
+  }
+  h1{
+    font-weight: bold;
+  }
+  h2{
+    font-weight: bold;
+  }
+  h5{
+    font-weight: bold;
+  }
+  .container{
+    padding-top: 50px;
+  }
+  #hide{
+    display: none;
+  }
+  #hide1{
+    display: none;
+  }
+  #hide2{
+    display: none;
+  }
+  .col-sm-3{
+    width: 245px;
+    padding: 10px;
+  }
+  .portfolio img{
+    width: 255px;
+    float: left;
+  }
+  .proj{
+    display: none;
+  }
+  #firstName{
+    display: none;
+  }
+  ::placeholder{
+    color: white;
+  }
+  
   
