@@ -36,4 +36,34 @@ $(document).ready(function () {
         $("#work4").fadeTo("slow", 1);
         $("#proj4").fadeTo("slow", 0);
     });
+
+    $("#col_5").hover(function () {
+        $("#work5").fadeTo("slow", 0.6);
+        $("#proj5").fadeTo("slow", 1);
+    }, function () {
+        $("#work5").fadeTo("slow", 1);
+        $("#proj5").fadeTo("slow", 0);
+    });
+    $("#col_6").hover(function () {
+        $("#work6").fadeTo("slow", 0.6);
+        $("#proj6").fadeTo("slow", 1);
+    }, function () {
+        $("#work6").fadeTo("slow", 1);
+        $("#proj6").fadeTo("slow", 0);
+    });
+    $("#col_7").hover(function () {
+        $("#work7").fadeTo("slow", 0.6);
+        $("#proj7").fadeTo("slow", 1);
+    }, function () {
+        $("#work7").fadeTo("slow", 1);
+        $("#proj7").fadeTo("slow", 0);
+    });
+    $("#col_8").hover(function () {
+        $("#work8").fadeTo("slow", 0.6);
+        $("#proj8").fadeTo("slow", 1);
+    }, function () {
+        $("#work8").fadeTo("slow", 1);
+        $("#proj8").fadeTo("slow", 0);
+    });
+
    
