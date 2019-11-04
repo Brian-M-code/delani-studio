@@ -7,8 +7,10 @@ body{
   }
   .front-page{
     background: url(../images/assets/h_img.jpg) no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: white;
+    padding-top: 200px;
+    
   }
   .about-us{
     margin-top: 50px;
