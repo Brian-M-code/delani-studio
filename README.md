@@ -28,3 +28,11 @@ This delani studio ia a site built to practice concepts learnt including JQuery,
 |Email   | Enter your mail.                        |
 |Message | Type your message then click on submit. | 
 
+## Bugs
+The mail chimp doesn't work properly.
+
+## License.
+[The MIT license](license.md)
+Copyright (c) Brian-M-Code @2019
+
+
