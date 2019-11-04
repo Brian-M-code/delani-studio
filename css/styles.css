@@ -53,14 +53,14 @@ body{
     display: none;
   }
   input[type=text]{
-    background: none;
+    background: url(../images/assets/c_image.jpg) no-repeat;
     color: white;
     justify-content: flex-end;
     width: 100%;
     border-color: white;
   }
   textarea{
-    background: none;
+    background: url(../images/assets/c_image.jpg) no-repeat;
     color: lightcoral;
     width: 1100px;
     height: 250px;
