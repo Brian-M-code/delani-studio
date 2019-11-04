@@ -5,9 +5,6 @@
 ## Author:
 - Brian Mutuma N.
 
-## link to live site
-
-
 ### Description
 This delani studio ia a site built to practice concepts learnt including JQuery, bootstrap, javascript and working with APIS's.
 
