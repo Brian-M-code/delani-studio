@@ -122,5 +122,5 @@ $(document).ready(function () {
         });
         alert("Thank You " + input[0] + " for reaching out to us. We have received your message");
         $("#contacts")[0].reset();
-    })
-})
+    });
+});

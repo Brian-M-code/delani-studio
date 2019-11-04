@@ -132,16 +132,16 @@
         <form class="contacts" action="index.html" method="post" id="contacts">
           <div class="row">
             <div class="col-md">
-              <input id="name" type="text" name="name" placeholder="Type your name here; example: John Doe">
+              <input id="name" type="text" name="name" placeholder="Type your name here; example: John Doe" required>
               <span class="form-error" id="name-error"></span>
             </div>
             <div class="col-md">
-              <input id="mail" type="text" name="mail" placeholder="Type your mail here; example: user@mail.com">
+              <input id="mail" type="text" name="mail" placeholder="Type your mail here; example: user@mail.com" required>
               <span class="form-error" id="mail-error"></span>
             </div>
           </div>
           <div class="row">
-            <textarea type="text" id="message" name="message" placeholder="Type your message here"></textarea>
+            <textarea type="text" id="message" name="message" placeholder="Type your message here" required></textarea>
           </div>
           <div class="row">
             <input type="submit" name="button" value="submit">
