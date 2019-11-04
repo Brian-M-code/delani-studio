@@ -12,7 +12,7 @@
 This delani studio ia a site built to practice concepts learnt including JQuery, bootstrap, javascript and working with APIS's.
 
 ### Screenshot.
-- https://github.com/Brian-M-code/delani-studio/issues/1#issue-516996600
+![screenshot](images/assets/delani.png)
 
 ### Technologies used.
 - HTML5
@@ -20,4 +20,11 @@ This delani studio ia a site built to practice concepts learnt including JQuery,
 - CSS
 - Javascript
 - Bootstrap
+
+# BDD
+|Inputs  | Description                             |
+|--------|-----------------------------------------|
+|Name    | Enter your name to submit.              |
+|Email   | Enter your mail.                        |
+|Message | Type your message then click on submit. | 
 
