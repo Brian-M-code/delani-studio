@@ -1,12 +1,12 @@
 $(document).ready(function () {
     $(".clickable").click(function () {
-        $("#hide, #icon").slideToggle("slow");
+        $("#hide, #icon").toggle();
     })
     $(".clickable1").click(function () {
-        $("#hide1, #icon1").slideToggle("slow");
+        $("#hide1, #icon1").toggle();
     })
     $(".clickable2").click(function () {
-        $("#hide2, #icon2").slideToggle("slow");
+        $("#hide2, #icon2").toggle();
 
     })
     $("#col_1").hover(function () {
