@@ -10,12 +10,14 @@ $(document).ready(function () {
 
     })
     $("#col_1").hover(function () {
-        $("#work1").fadeTo("slow", 0.6);
-        $("#proj1").fadeTo("slow", 1);
+         $("#work1").fadeTo("slow", 0.6);
+         $("#proj1").fadeTo("slow", 1); ///interchange with work4
+        
 
     }, function () {
         $("#work1").fadeTo("slow", 1);
         $("#proj1").fadeTo("slow", 0);
+      
     });
     $("#col_2").hover(function () {
         $("#work2").fadeTo("slow", 0.6);
